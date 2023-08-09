@@ -1,0 +1,18 @@
+INPUT : 
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter the value of n : \n");
+    scanf("%d",&n);
+    if(n%2==0)
+    printf("its even number");
+    else
+    printf("its odd number");
+}
+
+OUTPUT : 
+
+Enter the value of n : 
+7
+its odd number
