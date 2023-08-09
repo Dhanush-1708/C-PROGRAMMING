@@ -1,0 +1,20 @@
+INPUT : 
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter the value of n : \n");
+    scanf("%d",&n);
+    if(n<0)
+    printf("Negative number");
+    else if(n=0)
+    printf("Zero");
+    else
+    printf("Postive number");
+}
+
+OUTPUT : 
+
+Enter the value of n : 
+17
+Postive number
