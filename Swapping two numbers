@@ -1,0 +1,25 @@
+INPUT : 
+
+#include<stdio.h>
+int main(){
+    int m,n;
+    printf("Enter the value of m,n : \n");
+    scanf("%d%d",&m,&n);
+    printf("Before Swapping : \n");
+    printf("m = %d      n = %d\n",m,n);
+    m=m+n;
+    n=m-n;
+    m=m-n;
+    printf("After Swaping : \n");
+    printf("m = %d      n = %d",m,n);
+}
+
+OUTPUT : 
+
+Enter the value of m,n : 
+5
+7
+Before Swapping : 
+m = 5      n = 7
+After Swaping : 
+m = 7      n = 5
