@@ -1,0 +1,22 @@
+INPUT : 
+
+#include<stdio.h>
+int main(){
+    int A,B,C;
+    printf("Enter the value of A,B,C : \n");
+    scanf("%d%d%d",&A,&B,&C);
+    if(A>B && A>C)
+    printf("A is the largest number");
+    else if(B>A && B>C)
+    printf("B is the largest number");
+    else
+    printf("C is the largest number");
+}
+
+OUTPUT : 
+
+Enter the value of A,B,C : 
+17
+08
+2005
+C is the largest number
