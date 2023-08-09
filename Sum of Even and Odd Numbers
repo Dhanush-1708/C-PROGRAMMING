@@ -1,0 +1,25 @@
+INPUT : 
+
+#include<stdio.h>
+int main(){
+    int m,n,i;
+    int evensum=0;
+    int oddsum=0;
+    printf("Enter the value of m and n : \n");
+    scanf("%d%d",&m,&n);
+    for(i=m;i<n;i++)
+    if(i%2==0)
+    evensum+=i;
+    else
+    oddsum+=i;
+    printf("Sum of even numbers : %d\n",evensum);
+    printf("Sum of odd numbers : %d\n",oddsum);
+}
+
+OUTPUT : 
+
+Enter the value of m and n : 
+1
+10
+Sum of even numbers : 20
+Sum of odd numbers : 25
